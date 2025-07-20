@@ -1,0 +1,12 @@
+import joblib
+
+# Load the model
+fraud_model = joblib.load("models/fraud_detector/fraud_model.pkl")
+
+def is_fraudulent(claim_features):
+    """
+    Predicts whether a claim is fraudulent.
+    claim_features: dict or DataFrame row with preprocessed inputs
+    """
+    prediction = fraud_model.predict([claim_features])
+    return prediction[0] == 1  # Assuming 1 = Fraudulent

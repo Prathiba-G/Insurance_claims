@@ -1,0 +1,10 @@
+import joblib
+
+# Load vectorizer and model
+vectorizer = joblib.load("models/classifier/vectorizer.pkl")
+model = joblib.load("models/classifier/model.pkl")
+
+def classify_claim(text):
+    features = vectorizer.transform([text])
+    prediction = model.predict(features)
+    return prediction[0]

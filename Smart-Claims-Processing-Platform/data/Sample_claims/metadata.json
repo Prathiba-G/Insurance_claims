@@ -1,0 +1,18 @@
+[
+  {
+    "claimId": "C001",
+    "claimType": "Health",
+    "priority": "High",
+    "status": "Pending",
+    "submittedAt": "2025-07-01",
+    "document": "claim001_health.pdf"
+  },
+  {
+    "claimId": "C002",
+    "claimType": "Auto",
+    "priority": "Medium",
+    "status": "In Review",
+    "submittedAt": "2025-07-02",
+    "document": "claim002_auto.jpg"
+  }
+]

@@ -1,0 +1,10 @@
+# robots.txt for Smart Claims Processing Platform
+
+User-agent: *
+Disallow: /api/
+Disallow: /server/
+Disallow: /private/
+Disallow: /config/
+Allow: /
+
+Sitemap: https://smartclaims.io/sitemap.xml

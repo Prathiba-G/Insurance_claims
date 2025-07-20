@@ -1,0 +1,13 @@
+{
+  "APP_NAME": "Smart Claims Processing",
+  "ENV": "production",
+  "API_BASE_URL": "https://api.smartclaims.io",
+  "ENABLE_LOGGING": false,
+  "SUPPORTED_LANGUAGES": ["en", "hi"],
+  "CLAIM_TYPES": ["Health", "Auto", "Property", "Life"],
+  "FEATURE_FLAGS": {
+    "MULTIMODAL_AI": true,
+    "POLICY_COMPLIANCE_ENGINE": true,
+    "DASHBOARD_VISUALS": true
+  }
+}

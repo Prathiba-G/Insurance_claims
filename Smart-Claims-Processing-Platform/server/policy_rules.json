@@ -1,0 +1,35 @@
+{
+  "exclusions": [
+    "Alcohol-related incidents",
+    "Intentional damage",
+    "Expired policy",
+    "Fraudulent claims"
+  ],
+  "coverageLimits": {
+    "Health": 500000,
+    "Auto": 300000,
+    "Property": 1000000,
+    "Life": 2000000,
+    "Travel": 10000
+  },
+  "fraudIndicators": [
+    "Multiple claims in short duration",
+    "Mismatch in claimant identity",
+    "Tampered documents",
+    "Unverified third-party reports"
+  ],
+  "waitingPeriods": {
+    "Health": "90 days",
+    "Life": "180 days"
+  },
+  "treatmentRestrictions": {
+    "Dental": {
+      "maxAmount": 20000,
+      "frequency": "Once per year"
+    },
+    "Physiotherapy": {
+      "maxSessions": 10,
+      "perClaimLimit": 15000
+    }
+  }
+}
